@@ -1,0 +1,33 @@
+{
+  "pages": [
+    "pages/movie/movie",
+    "pages/profile/profile",
+    "pages/comment/comment"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#E54847",
+    "navigationBarTitleText": "top250的电影",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#000",
+    "selectedColor": "#E54847",
+    "list": [
+      {
+        "pagePath": "pages/movie/movie",
+        "text": "电影",
+        "iconPath": "images/d1.png",
+        "selectedIconPath": "images/d2.png"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "text": "我的",
+        "iconPath": "images/w1.png",
+        "selectedIconPath": "images/w2.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap3.json"
+}
